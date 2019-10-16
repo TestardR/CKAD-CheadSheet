@@ -110,6 +110,8 @@ kubectl create -f secret-data.yaml
 echo -n 'mysql' | base64
 
 kubectl get secrets
+To get the number of secrets, look at the DATA field
+
 kubeclt describe secrets 
 => hide secrets
 kubectl get secret app-secret -o yaml 
